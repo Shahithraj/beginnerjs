@@ -17,19 +17,19 @@ xhr.onload = function () {
 };
  xhr.send();
 
- Comparing objects
+// Comparing objects
 
-// var obj1 = {Name:'person1',age:30,state:'TN'};
-// var obj2 = {Name:'person1',age:30,state:'TN'};
-// console.log(obj1==obj2) // false
-// console.log(JSON.stringify(obj1)==JSON.stringify(obj2))   //true
+var obj1 = {Name:'person1',age:30,state:'TN'};
+var obj2 = {Name:'person1',age:30,state:'TN'};
+console.log(obj1==obj2) // false
+console.log(JSON.stringify(obj1)==JSON.stringify(obj2))   //true
 
-// var a = {Name:'person1',age:20,state:'TN'}
-// var b = {Name:'person1',age:20,state:'TN'}
-// if(JSON.stringify(a)==JSON.stringify(b))
-// {
-//     console.log('yes')
-// }
-// else{
-//     console.log('no')
-// }
+var a = {Name:'person1',age:20,state:'TN'}
+var b = {Name:'person1',age:20,state:'TN'}
+if(JSON.stringify(a)==JSON.stringify(b))
+{
+    console.log('yes')
+}
+else{
+    console.log('no')
+}
