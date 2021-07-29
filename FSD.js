@@ -1,3 +1,4 @@
+//1. rest countries
 var url = 'https://restcountries.eu/rest/v2/all';
 var xhr = new XMLHttpRequest();
 xhr.open("GET", url)
@@ -17,7 +18,7 @@ xhr.onload = function () {
 };
  xhr.send();
 
-// Comparing objects
+//2. Comparing objects
 
 var obj1 = {Name:'person1',age:30,state:'TN'};
 var obj2 = {Name:'person1',age:30,state:'TN'};
