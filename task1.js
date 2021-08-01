@@ -1,9 +1,8 @@
 let students =[
     {name:"Adhi",gender:"male"},
     {name:"Ahamed",gender:"male"},
-    {name:"rutika",gender:"female"},
-    {name:"priya",gender:"female"},
-    {name:'ANAND',gender:"male"}
+    {name:"Rutika kadam",gender:"female"},
+    {name:"Priyadharshini",gender:"female"}
 ]
 
 var femalee=(students.filter((foo)=> foo.gender=='female' ))
