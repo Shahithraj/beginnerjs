@@ -7,7 +7,7 @@ const getCountries = ()=> {
         var data = xhr.response
         data = (JSON.parse(data));
         var people = data.filter((foo)=> foo.population>10000000)
-     var arr = people.map((foo)=>  ["name: " +foo.name +" ; population: "+ foo.population])
+     var arr = people.map((foo)=>  ({"name: " +foo.name +" ; population: "+ foo.population}))
         console.log(arr);
     }
     xhr.send();
